@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <header class="jumbotron jumbotron-fluid bg-info" style="text-align: right;">
+      <img src="imagens/logo.png" class = "mx-auto d-block" height="100px" style="border-radius: 100px;">
+      <div class="dropdown">
+          <button type="button" class="btn btn-outline-light dropdown" style="margin-right: 1%;" data-toggle="dropdown">
+              <span class="material-icons">
+                  menu
+              </span>
+          </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="logout.php">Sair
+            <ion-icon name="log-out-outline"></ion-icon>
+            </a>
+            <a class="dropdown-item" href="user-profile.php">Meu Perfil
+            <ion-icon name="person-outline"></ion-icon>
+            </a>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info" style="margin-top: -2cm;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinos.html">Destinos</a>
+          </li>
+        </ul>
+      </nav>
+      <style>
+          footer{
+            width: 100%;
+            height: 16%;
+            position: absolute;
+        }
+      </style>
+</head>
+<body>
+    <div class="conteiner">
+        <p class="jumbotron text-black-50">Planejar uma viagem parece ser tarefa fácil para muita gente acostumada a embarcar por esse mundão, mas se você não está acostumado a roteiros complexos ou é do time de viajantes desorganizados e que deixam tudo para a última hora, por isso te mostramos opções de lugares e atvidades que você pode realizar</p>
+        <ul class="nav nav-tabs" role="tablist" style="margin-top: -5.4%;">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#beach">Praias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#neve">Neve</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#nascionais">Nacionais</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="beach" class="container tab-pane active"><br>
+                <h3 class="display-4">Praias</h3>
+                <p>As opções de destinos para as suas viagens são muitas, e como fazer a melhor escolha para você? Justamente para lhe ajudar nessa missão preparamos esse post com algumas dicas de viagem especiais.</p>
+                <div class="form-row" style="margin-top: 5%;">
+                    <div class="col">
+                        <h1 class="display-4" style="font-size: 30px;">Saint-Jean-Cap-Ferrat</h1>
+                        <p>Em Saint-Jean-Cap-Ferrat, uma península perto de Nice, fica a praia Paloma, figurando em quase todos os rankings das praias mais bonitas da França. O nome Paloma é uma homenagem à filha de Picasso, que costumava curtir o local com a família. Cercada pela mata costeira que fica mais verdinha no verão, o chão é de pedras e a vista é para as luxuosas mansões da região, as falésias de Èze e a baía de Beaulieu Sur Mer. A ideia é curtir o dia ali sem pressa e, se a fome bater, provar os frutos do mar fresquinhos do restaurante Paloma Beach – o estabelecimento também aluga espreguiçadeiras e guarda-sóis pra quem precisar.</p>
+                    </div>
+                    <div class="col" style="text-align: justify;">
+                        <img class="rounded" src="imagens/praia-franca.jpg" height="300 px" width="580px">
+                    </div>
+                </div>
+                <div class="form-row" style="margin-top: 8%;">
+                    <div class="col">
+                        <img class="rounded" src="imagens/praia-do-forte.jpg" height="300px" width="580px">
+                    </div>
+                    <div class="col" style="margin-left: 12%;" >
+                        <h1 class="display-4" style="font-size:30px ;">Praia do Forte</h1>
+                        <p style="text-align: justify;">Com certeza você já ouviu na Praia do Forte, que é uma das praias mais bonitas de todo o Brasil. Muita gente que vai para Salvador já planeja passar pelo menos um dia nessa praia, embora a ela fique no distrito de Mata de São João, a cerca de 65 km do centro de Salvador. Praia do Forte é uma antiga vila de pescadores, com coqueiros, água cristalina e piscinas naturais, e que faz qualquer um se esquecer dos seus problemas!</p>
+                    </div>
+                </div>
+                <div class="form-row" style="margin-top: 8%;">
+                    <div class="col">
+                        <h1 class="display-4" style="font-size:30px;">Macarella, Menorca</h1>
+                        <p style="text-align: justify; margin-right: 5%;">Você já foi a Menorca? Então vá. A ilha é certamente um dos lugares mais lindos em que já estive. E, milagrosamente, é a mais tranquila das Ilhas Baleares (o quarteto incrível formado por Menorca, Maiorca, Formentera e Ibiza).<br><br>A lista de praias inacreditáveis é longa. Mas essa duplinha é algo de fazer o sujeito tremer nas bases. Elas ficam relativamente perto de Ciutadella, que é a cidade mais charmosa da ilha.</p>
+                    </div>
+                    <div class="col">
+                        <img class="rounded" src="imagens/praia-espanha.jpg" height="300px" width="580px">
+                    </div>
+                </div>
+                <footer class="bg-info form-inline" style="margin-top: 8%; margin-left: -8.9%;">
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwgCHbbdxKZnnHklpzdpPLlXGGpqqbkWqGhVGGQvCXdsFBqskFnTWWMtsBsFHKGzCtpdV" style="margin-left: 29%;" class="text-black-50"> luisgustavo8564@gmail.com
+                        <ion-icon name="mail" class="text-black-50"></ion-icon> |
+                    </a>
+                    <a href="https://www.instagram.com/luisgustavoerich/" class="text-black-50"> @luisgustavoerichduarte
+                        <ion-icon name="logo-instagram" class="text-black-50"></ion-icon> |
+                    </a>
+                    <a href="https://twitter.com/_ovatsugL" class="text-black-50">@_ovatsugL
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </footer>
+            </div>
+            <div id="neve" class="container tab-pane fade"><br>
+                <h3 class="display-4">Neve</h3>
+                <p>As opções de destinos para as suas viagens são muitas, e como fazer a melhor escolha para você? Justamente para lhe ajudar nessa missão preparamos esse post com algumas dicas de viagem especiais.</p>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators" style="margin-right: 3cm;">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner" style="margin-left:16%;" >
+                      <div class="carousel-item active">
+                        <img src="imagens/italia-neve.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/italia-neve2.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/neve-italia3.jpg" height="400px" width="750pxs">
+                      </div>
+                    </div>
+                </div>
+                <h3 class="display-4" style="font-size: 30px;">Piemonte</h3>
+                <p style="text-align: justify;">A região do Piemonte, no norte da Itália, próxima à fronteira com a França, é um dos lugares com neve na Europa que você não pode deixar de conhecer. É lá que fica a Via Lattea, um dos maiores domínios esquiáveis dos Alpes, com 244 pistas sinalizadas para todos os níveis de habilidade. Além da variedade de áreas para esquiar, a região é composta por uma série de pequenos vilarejos e cidadezinhas aos pés das montanhas. Vale a visita!</p>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators" style="margin-right: 3cm;">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner" style="margin-left:16%;" >
+                      <div class="carousel-item active">
+                        <img src="imagens/suica-neve.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/neve-suiça2.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/neve-suica3.jpeg" height="400px" width="750pxs">
+                      </div>
+                    </div>
+                </div>
+                <h3 class="display-4" style="font-size: 30px;">Saint Moritz</h3>
+                <p style="text-align: justify;">Considerada uma das estações de esqui mais luxuosas da Europa, St. Moritz, na Suíça, foi pioneira no conceito de turismo de inverno no mundo, há mais de 150 anos. Não é nenhuma surpresa que os Jogos Olímpicos de Inverno tenham acontecido não só uma, mas duas vezes na estância, no coração do fascinante distrito dos lagos da Alta Engadina. Além dos esportes na neve, St. Moritz oferece a você uma variedade de atrações para vivenciar o estilo de vida dos Alpes suíços – de restaurantes estrelados a spas termais, passando por hotéis e resorts cheios de charme.</p>
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators" style="margin-right: 3cm;">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner" style="margin-left:16%;" >
+                      <div class="carousel-item active">
+                        <img src="imagens/rovaniemi-natal.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/rovaniemi2.jpg" height="400px" width="750pxs">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagens/rovaniemi3.jpg" height="400px" width="750pxs">
+                      </div>
+                    </div>
+                </div>
+                <h3 class="display-4" style="font-size: 30px;">Rovaniemi</h3>
+                <p style="text-align: justify;">Rovaniemi, na Finlândia, pode não parecer muito familiar para nós brasileiros, mas esta pequena vila dentro do Círculo Polar Ártico é considerada a cidade natal oficial do Papai Noel. A Aldeia do bom velhinho fica a oito quilômetros do centro da cidade de Rovaniemi e é acessada de táxi ou por meio do trem Expresso do Papai Noel. Embora a charmosa vila esteja aberta o ano todo e tenha muitas atrações relacionadas ao Natal (incluindo os correios do Papai Noel), Rovaniemi é particularmente deslumbrante durante o inverno.</p>
+                <footer class="bg-info form-inline" style="margin-top: 8%; margin-left: -8.9%;">
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwgCHbbdxKZnnHklpzdpPLlXGGpqqbkWqGhVGGQvCXdsFBqskFnTWWMtsBsFHKGzCtpdV" style="margin-left: 29%;" class="text-black-50"> luisgustavo8564@gmail.com
+                    <ion-icon name="mail" class="text-black-50"></ion-icon> |
+                  </a>
+                  <a href="https://www.instagram.com/luisgustavoerich/" class="text-black-50"> @luisgustavoerichduarte
+                    <ion-icon name="logo-instagram" class="text-black-50"></ion-icon> |
+                  </a>
+                  <a href="https://twitter.com/_ovatsugL" class="text-black-50">@_ovatsugL
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </footer>
+            </div>
+            <div id="nascionais" class="container tab-pane"><br>
+                <h3 class="display-4">Nascionais</h3>
+                <p style="text-align: justify;">As opções de destinos para as suas viagens são muitas, e como fazer a melhor escolha para você? Justamente para lhe ajudar nessa missão preparamos esse post com algumas dicas de viagem especiais.</p>
+                <div class="form-row" style="margin-top: 5%;">
+                    <div class="col">
+                        <h1 class="display-4" style="font-size: 30px;">Lençóis Maranhenses</h1>
+                        <p style="text-align: justify; margin-right: 1cm;">As dunas de areia e lagoas com águas cristalinas formadas pelas chuvas nos Lençóis Maranhenses tornam o lugar tão belo que já foi várias vezes cenário de filmes. A região dos Lençóis oferece uma paisagem realmente única e surpreendente! É mais uma boa dica para quem busca contato com a natureza e paisagens exóticas. Atins, localizada na região, integra nossa lista de melhores praias do Nordeste!</p>
+                    </div>
+                    <div class="col" style="text-align: justify;">
+                        <img class="rounded" src="imagens/lencois.jpg" height="300 px" width="580px">
+                    </div>
+                </div>
+                <div class="form-row" style="margin-top: 8%;">
+                    <div class="col">
+                        <img class="rounded" src="imagens/cristo.jpg" height="300px" width="580px">
+                    </div>
+                    <div class="col" style="margin-left: 12%;" >
+                        <h1 class="display-4" style="font-size:30px ;">Cristo Redentor, RJ</h1>
+                        <p style="text-align: justify;">Das 7 maravilhas do mundo moderno, o Cristo Redentor é a mais nova. De braços aberto sobre a Guanabara, no Rio de Janeiro, o Cristo teve a sua construção iniciada em 1926 e foi inaugurado em 12 de outubro de 1931.<br><br>A estátua está localizada no topo do Morro do Corcovado a 709 metros sobre o nível do mar. O Cristo Redentor possui 30 metros de altura e está sobre uma base de 8 metros. Seus braços estendidos alcançam 28 metros. O Cristo Redentor é um dos Pontos turísticos do Rio de Janeiro mais visitados! Você pode ir por sua conta ou fazer um tour no Corcovado.</p>
+                    </div>
+                </div>
+                <div class="form-row" style="margin-top: 8%;">
+                    <div class="col">
+                        <h1 class="display-4" style="font-size:30px;">Gramado, RS</h1>
+                        <p style="text-align: justify; margin-right: 5%;">Gramado é um dos melhores destinos no Brasil e uma cidade que oferece excelente estrutura, enorme variedade de atrativos, ótima gastronomia e que tem povo acolhedor, tornando a experiência na cidade sempre inesquecível. É um local para pessoas de todas as idades, que sempre tem algo novo para fazer ou uma nova atração para conhecer! É uma cidade que ganhou o gosto dos brasileiros e que sempre vale a pena voltar!<br><br>Ao planejar sua viagem à Serra Gaúcha, visite o Parque Estadual do Caracol, onde fica a Cascata do Caracol, passeie pela Rua Coberta e curta um passeio ao ar livre no Lago Negro, cartão-postal da cidade.</p>
+                    </div>
+                    <div class="col">
+                        <img class="rounded" src="imagens/gramado-RS.jpg" height="300px" width="580px">
+                    </div>
+                </div>
+                <div class="form-row" style="margin-top: 8%;">
+                    <div class="col">
+                        <h1 class="display-4" style="font-size:30px;">Paraná</h1>
+                        <p style="text-align: justify; margin-right: 5%;">Foz do Iguaçu, cidade no estado brasileiro do Paraná, é a principal base para visitar as famosas Cataratas do Iguaçu, uma das maiores cachoeiras do mundo. Com uma extensão de 2,7 km e atravessando a fronteira com a Argentina, as cataratas são formadas por centenas de cascatas, entre elas a Garganta do Diabo, com 80 m de altura. Passeios em barcos infláveis durante os quais os turistas ficam encharcados são uma forma muito comum de apreciar esse espetáculo natural.</p>
+                    </div>
+                    <div class="col">
+                        <img class="rounded" src="imagens/fos.jpg" height="300px" width="580px">
+                    </div>
+                </div>
+                <footer class="bg-info form-inline" style="margin-top: 8%; margin-left: -8.9%;">
+                  <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwgCHbbdxKZnnHklpzdpPLlXGGpqqbkWqGhVGGQvCXdsFBqskFnTWWMtsBsFHKGzCtpdV" style="margin-left: 29%;" class="text-black-50"> luisgustavo8564@gmail.com
+                    <ion-icon name="mail" class="text-black-50"></ion-icon> |
+                  </a>
+                  <a href="https://www.instagram.com/luisgustavoerich/" class="text-black-50"> @luisgustavoerichduarte
+                    <ion-icon name="logo-instagram" class="text-black-50"></ion-icon> |
+                  </a>
+                  <a href="https://twitter.com/_ovatsugL" class="text-black-50">@_ovatsugL
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </footer>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

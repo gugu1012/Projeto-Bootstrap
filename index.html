@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <header class="jumbotron jumbotron-fluid bg-info" style="text-align: right;">
+      <img src="imagens/logo.png" class = "mx-auto d-block" height="100px" style="border-radius: 100px;">
+      <div class="dropdown">
+          <button type="button" class="btn btn-outline-light dropdown" style="margin-right: 1%;" data-toggle="dropdown">
+              <span class="material-icons">
+                  menu
+              </span>
+          </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="logout.php">Sair
+            <ion-icon name="log-out-outline"></ion-icon>
+            </a>
+            <a class="dropdown-item" href="user-profile.php">Meu Perfil
+            <ion-icon name="person-outline"></ion-icon>
+            </a>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info" style="margin-top: -2cm;">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinos.html">Destinos</a>
+            </li>
+          </ul>
+    </nav>
+    <style>
+      footer{
+        width: 100%;
+        height: 16%;
+        margin-top: 60%;
+        position: absolute;
+      }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+      <div class="form-row" style=" position: absolute; margin-top: 1cm; width: 100%;" >
+          <div class="col" style="margin-left: 3cm;">
+            <h1 class="display-4">Por que viajar?</h1>
+            <p style="text-align: justify; position: relative; margin-right: 1cm;">Já sabemos que viajar faz muito bem, ajuda a reduzir o estresse, aumenta a autoestima, diminui o risco de algumas doenças e desenvolve ainda mais o nosso conhecimento. Por isso, o que acha de aproveitar este momento de recolhimento e começar a planejar a sua próxima aventura, uma que seja 100% focada em você? Até porque há muitos destinos no Brasil e no mundo que são ótimos para fugir da loucura do dia a dia e pegar mais leve.<br> Pensando nisso, nós montamos esse site justamente para ajudar <strong>você</strong> a encontrar o melhor para viajar</p>
+          </div>
+          <div class="col" style="position: relative; margin-right: 1cm;">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators" style="margin-right: 3cm;">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagens/Paris.jpg" class="rounded" height="300 px" width="560px">
+                  <div class="carousel-caption" style=" margin-right:1cm;">
+                    <h3>Paris</h3>
+                    <p>França</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/grecia.jpg" class="rounded" style=" margin-right:1cm;" height="300 px" width="560px">
+                  <div class="carousel-caption">
+                    <h3>Mykonos</h3>
+                    <p>Grécia</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="imagens/maldivas.jpg" class="rounded" style=" margin-right:1cm;" height="300 px" width="560px" >
+                  <div class="carousel-caption" style=" margin-right:1cm; color: white;">
+                    <h3>Maldivas</h3>
+                    <p>Ásia</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row" style=" position: absolute; margin-top: 12cm; width: 100%;" >
+        <div class="col" style="margin-right: 4cm;">
+          <img class="rounded" src="imagens/neve.jpg" style="margin-left: 3cm; margin-top: -1cm;" height="300 px" width="560px">
+        </div>
+        <div class="col" style="margin-right: 2cm;">
+          <h3 class="display-4">O que fazemos?</h3>
+          <p style="text-align: justify;">Viajar tem tudo a ver com liberdade e é um dos maiores prazeres da vida. E queremos que todas as gerações possam vivenciar essa alegria. Oferecemos varias opções para que você possa tomar a decisão certa para você na hora de sua viajem. <br><br> Nosso foco é tornar a experiência de viajar o mais simples possível, ajudando cada pessoa a encontrar as melhores opções de destino para si.</p>
+        </div>
+      </div>
+      <footer class="bg-info form-inline">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwgCHbbdxKZnnHklpzdpPLlXGGpqqbkWqGhVGGQvCXdsFBqskFnTWWMtsBsFHKGzCtpdV" style="margin-left: 29%;" class="text-black-50"> luisgustavo8564@gmail.com
+            <ion-icon name="mail" class="text-black-50"></ion-icon> |
+        </a>
+        <a href="https://www.instagram.com/luisgustavoerich/" class="text-black-50"> @luisgustavoerichduarte
+            <ion-icon name="logo-instagram" class="text-black-50"></ion-icon> |
+        </a>
+        <a href="https://twitter.com/_ovatsugL" class="text-black-50">@_ovatsugL
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+    </footer>
+    </div>
+</body>
+</html>
